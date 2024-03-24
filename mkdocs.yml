@@ -1,0 +1,430 @@
+### Gernelles
+# venv aktivieren!
+# cmd
+# cd website-mkdocs
+# .\venv\Scripts\activate.bat
+# code .
+site_url: https://iprog-php.thomaschewski.de/
+
+### Mkdocs
+# https://squidfunk.github.io/mkdocs-material/reference/ 
+
+### Link zur mkdocs.yml
+# https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml#L135C3-L138C1
+# https://github.com/james-willett/mkdocs-material-youtube-tutorial/blob/main/mkdocs.yml  (aus dem Video)
+# https://squidfunk.github.io/mkdocs-material/getting-started/
+
+### Blogging-Plugin schon installiert
+# https://liang2kl.github.io/mkdocs-blogging-plugin/ 
+# https://github.com/liang2kl/mkdocs-blogging-plugin
+
+### VG WORT
+# https://www.selbstaendig-im-netz.de/einnahmequellen/vg-wort-meldung-deadline-infos-zu-den-zaehlpixeln-geschaetze-einnahmen/
+# <img style="display:none;" src="https://vg(123).met.vgwort.de/na/eine-lange-Reihe-von-Buchstaben-und-Ziffern" width="1" height="1" alt="">
+
+
+site_name: Jörg Thomaschewski - Internet-Programmierung mit PHP
+
+nav:
+  - Home: index.md
+  - '1. Einleitung und Basiswissen': 
+      - 'Übersicht': '1EinleitungundBasiswissen/index.md'
+      - '1.1 Die Geschichte des Internets': '1EinleitungundBasiswissen/1.1DieGeschichtedesInternets.md'
+      - '1.2 Basiswissen Linux': '1EinleitungundBasiswissen/1.2BasiswissenLinux.md'
+      - '1.3 Basiswissen SSH und SFTP': '1EinleitungundBasiswissen/1.3BasiswissenSSHundSFTP.md'
+      - '1.4 Basiswissen HTML': '1EinleitungundBasiswissen/1.4BasiswissenHTML.md'
+      - '1.5 HTML-Formulare': '1EinleitungundBasiswissen/1.5HTML-Formulare.md'
+      - '1.6 Radio-Buttons und Checkboxen': '1EinleitungundBasiswissen/1.6Radio-ButtonsundCheckboxen.md'
+      - '1.7 Eingabebereiche (textarea)': '1EinleitungundBasiswissen/1.7Eingabebereiche-textarea.md'
+      - '1.8 Auswahllisten (select)': '1EinleitungundBasiswissen/1.8Auswahllisten-select.md'
+      - '1.9 Buttons und Absenden von Formularen': '1EinleitungundBasiswissen/1.9ButtonsundAbsendenvonFormularen.md'
+      - '1.10 Selbsttest zu HTML und HTML-Formularen': '1EinleitungundBasiswissen/1.10SelbsttestzuHTML-Formularen.md'
+  - '2. HTTP': 
+      - 'Übersicht': '2HTTP/index.md'
+      - '2.1.1 Sinn und Zweck von HTTP': '2HTTP/2.1.1SinnundZweckvonHTTP.md'
+      - '2.1.2 HTTP 1.1 zustandslos und persistent': '2HTTP/2.1.2HTTP1.1zustandslosundpersistent.md'
+      - '2.1.3 HTTP 1.1 gleichzeitige Anfragen': '2HTTP/2.1.3HTTP1.1gleichzeitigeAnfragen.md'
+      - '2.1.4 URL, URI, URN': '2HTTP/2.1.4URLURIURN.md'
+      - '2.1.5 Sonderzeichen und Codierung': '2HTTP/2.1.5SonderzeichenundCodierung.md'
+      - '2.1.6 Selbsttest zu HTTP-Grundlagen': '2HTTP/2.1.6SelbsttestzuHTTP-Grundlagen.md'
+      - '2.1 HTTP-Grundlagen und Internet-Kommunikation': '2HTTP/2.1HTTP-GrundlagenundInternet-Kommunikation.md'
+      - '2.2 HTTP 1.1': '2HTTP/2.2HTTP1.1.md'
+      - '2.2.1 HTTP-Request und HTTP-Response': '2HTTP/2.2.1HTTP-RequestundHTTP-Response.md'
+      - '2.2.2 HTTP-Request Methoden und Request-Line': '2HTTP/2.2.2HTTP-RequestMethodenundRequest-Line.md'
+      - '2.2.3 HTTP-Request': '2HTTP/2.2.3HTTP-Request.md'
+      - '2.2.4 HTTP-Response Statuscodes und Status-Line': '2HTTP/2.2.4HTTP-ResponseStatuscodesundStatus-Line.md'
+      - '2.2.5 HTTP-Response': '2HTTP/2.2.5HTTP-Response.md'
+      - '2.2.6 Selbsttest zu HTTP 1.1': '2HTTP/2.2.6SelbsttestzuHTTP1.1.md'
+      - '2.3 HTTP 2': '2HTTP/2.3HTTP2.md'
+      - '2.3.1 Warum HTTP 2 notwendig wurde': '2HTTP/2.3.1WarumHTTP2notwendigwurde.md'
+      - '2.3.2 Verbesserungen in HTTP 2': '2HTTP/2.3.2VerbesserungeninHTTP2.md'
+      - '2.4 Zusammenfassung Kapitel HTTP': '2HTTP/2.4ZusammenfassungKapitelHTTP.md'
+      - '2.4.1 Selbsttest zum gesamten Kapitel HTTP': '2HTTP/2.4.1SelbsttestzumgesamtenKapitelHTTP.md'
+      # - '3. Webserver': 
+      #   - '3.1 Einführung in die Webserver-Grundlagen': '3Webserver/3.1EinführungindieWebserver-Grundlagen.md'
+      #   - '3.2 Der Apache Webserver':
+      #       - '3.2 Der Apache Webserver Übersicht': '3Webserver/3.2DerApacheWebserver.md'
+      #       - '3.2.1 Direkte Programmoptionen für apache2': '3Webserver/3.2.1DirekteProgrammoptionenfürapache2.md'
+      #       - '3.2.2 Modularer Aufbau des Apache': '3Webserver/3.2.2ModularerAufbaudesApache.md'
+      #       - '3.2.3 Apache Module': '3Webserver/3.2.3ApacheModule.md'
+      #       - '3.2.4 Die Verzeichnisstruktur des apache2': '3Webserver/3.2.4DieVerzeichnisstrukturdesapache2.md'
+      #       - '3.2.5 Selbsttest zu Apache Grundlagen': '3Webserver/3.2.5SelbsttestzuApacheGrundlagen.md'
+      #   - '3.3 Apache Konfiguration':
+      #       - '3.3 Apache Konfiguration Übersicht': '3Webserver/3.3ApacheKonfiguration.md'
+      #       - '3.3.1 Strukturierung der Konfigurationsdatei': '3Webserver/3.3.1StrukturierungderKonfigurationsdatei.md'
+      #       - '3.3.2 Konfiguration des Moduls MPM prefork': '3Webserver/3.3.2KonfigurationdesModulsMPMprefork.md'
+      #       - '3.3.3 Section Direktiven': '3Webserver/3.3.3SectionDirektiven.md'
+      #       - '3.3.4 Direktiven und Modulzuordnung': '3Webserver/3.3.4DirektivenundModulzuordnung.md'
+      #       - '3.3.5 Direktiven und Kontextzuordnung': '3Webserver/3.3.5DirektivenundKontextzuordnung.md'
+      #       - '3.3.6 Beispiel Server Tokens und Server Signature': '3Webserver/3.3.6BeispielServerTokensundServerSignature.md'
+      #       - '3.3.7 Beispiel Limit Request': '3Webserver/3.3.7BeispielLimitRequest.md'
+      #       - '3.3.8 Beispiel Header': '3Webserver/3.3.8BeispielHeader.md'
+      #       - '3.3.9 Beispiel Zugangsschutz': '3Webserver/3.3.9BeispielZugangsschutz.md'
+      #       - '3.3.10 Selbsttest zu Apache Konfiguration': '3Webserver/3.3.10SelbsttestzuApacheKonfiguration.md'
+      #   - '3.4 Der nginx Webserver':
+      #       - '3.4.1 Einsatzzweck und Unterschiede zum Apache': '3Webserver/3.4.1EinsatzzweckundUnterschiedezumApache.md'
+      #       - '3.4.2 Konfiguration des nginx': '3Webserver/3.4.2Konfigurationdesnginx.md'
+      #       - '3.4.3 Beispiel Zugangsschutz nginx': '3Webserver/3.4.3BeispielZugangsschutznginx.md'
+      #   - '3.5 Der node.js Webserver': '3Webserver/3.5Dernode.jsWebserver.md'
+      #   - '3.6 Zusammenfassung Kapitel Webserver':
+      #       - '3.6 Zusammenfassung Kapitel Webserver Übersicht': '3Webserver/3.6ZusammenfassungKapitelWebserver.md'
+      #       - '3.6.11 Aufgabe zum Kapitel Webserver': '3Webserver/3.6.11.AufgabezumKapitelWebserver.md'
+      #       - '3.6.22 Aufgabe zum Kapitel Webserver': '3Webserver/3.6.22.AufgabezumKapitelWebserver.md'
+      # - '4 PHP-Grundlagen': '4PHPGrundlagen/4PHP-Grundlagen.md'
+      #   - '4.1 Arbeitsumgebung':
+      #       - '4.1.1 Anforderungen an Editoren': '4PHPGrundlagen/4.1.1AnforderungenanEditoren.md'
+      #       - '4.1.2 PHP-Editoren und Entwicklungsumgebungen': '4PHPGrundlagen/4.1.2PHP-EditorenundEntwicklungsumgebungen.md'
+      #       - '4.1.3 Arbeiten mit dem Editor Atom': '4PHPGrundlagen/4.1.3ArbeitenmitdemEditorAtom.md'
+      #       - '4.1.4 Arbeitserleichterungen': '4PHPGrundlagen/4.1.4Arbeitserleichterungen.md'
+      #       - '4.1.5 Verzeichnisstrukturen': '4PHPGrundlagen/4.1.5Verzeichnisstrukturen.md'
+      #       - '4.1.6 Versionskontrolle': '4PHPGrundlagen/4.1.6Versionskontrolle.md'
+      #   - '4.2 Allgemeine Informationen':
+      #       - '4.2.1 Konfigurationsdatei php.ini': '4PHPGrundlagen/4.2.1Konfigurationsdateiphp.ini.md'
+      #       - '4.2.2 Umgebungsvariablen auslesen': '4PHPGrundlagen/4.2.2Umgebungsvariablenauslesen.md'
+      #       - '4.2.3 PHP-Konventionen': '4PHPGrundlagen/4.2.3PHP-Konventionen.md'
+      #       - '4.2.4 Namenskonventionen': '4PHPGrundlagen/4.2.4Namenskonventionen.md'
+      #       - '4.2.5 Kommentare': '4PHPGrundlagen/4.2.5Kommentare.md'
+      #       - '4.2.6 Selbsttest zu PHP allgemein': '4PHPGrundlagen/4.2.6SelbsttestzuPHPallgemein.md'
+      #   - '4.3 Variablentypen':
+      #       - '4.3.1 Boolean': '4PHPGrundlagen/4.3.1Boolean.md'
+      #       - '4.3.2 String': '4PHPGrundlagen/4.3.2String.md'
+      #       - '4.3.3 Integer': '4PHPGrundlagen/4.3.3Integer.md'
+      #       - '4.3.4 Float': '4PHPGrundlagen/4.3.4Float.md'
+      #       - '4.3.5 Arrays in PHP': '4PHPGrundlagen/4.3.5ArraysinPHP.md'
+      #       - '4.3.6 Indizierte Arrays': '4PHPGrundlagen/4.3.6IndizierteArrays.md'
+      #       - '4.3.7 Assoziative Arrays': '4PHPGrundlagen/4.3.7AssoziativeArrays.md'
+      #       - '4.3.8 Arrays im Array': '4PHPGrundlagen/4.3.8ArraysimArray.md'
+      #       - '4.3.9 Vergleich von Arrays': '4PHPGrundlagen/4.3.9VergleichvonArrays.md'
+      #       - '4.3.10 Schwache Typisierung': '4PHPGrundlagen/4.3.10SchwacheTypisierung.md'
+      #       - '4.3.11 Selbsttest zu Variablentypen': '4PHPGrundlagen/4.3.11SelbsttestzuVariablentypen.md'
+      #   - '4.4 PHP-Syntax':
+      #       - '4.4.1 Ausgabe von Text': '4PHPGrundlagen/4.4.1AusgabevonText.md'
+      #       - '4.4.2 Konstanten': '4PHPGrundlagen/4.4.2Konstanten.md'
+      #       - '4.4.3 Vordefinierte Variablen': '4PHPGrundlagen/4.4.3VordefinierteVariablen.md'
+      #       - '4.4.4 Funktionen empty() und isset()': '4PHPGrundlagen/4.4.4Funktionenempty()undisset().md'
+      #       - '4.4.5 Einbetten von Programmteilen': '4PHPGrundlagen/4.4.5EinbettenvonProgrammteilen.md'
+      #       - '4.4.6 Fehlerausgabe auf dem Browser': '4PHPGrundlagen/4.4.6FehlerausgabeaufdemBrowser.md'
+      #       - '4.4.7 Debugging': '4PHPGrundlagen/4.4.7Debugging.md'
+      #       - '4.4.8 Selbsttest zur PHP-Syntax': '4PHPGrundlagen/4.4.8SelbsttestzurPHP-Syntax.md'
+      #   - '4.5 Operatoren in PHP':
+      #       - '4.5.1 Übersicht über Operatoren': '4PHPGrundlagen/4.5.1ÜbersichtüberOperatoren.md'
+      #       - '4.5.2 Beispiele für Operatoren': '4PHPGrundlagen/4.5.2BeispielefürOperatoren.md'
+      #       - '4.5.3 Konvertierung zwischen Variablendeklarationen': '4PHPGrundlagen/4.5.3KonvertierungzwischenVariablendeklarationen.md'
+      #   - '4.6 Unterprogramme und Fehlerbehandlung':
+      #       - '4.6.1 Unterprogramme (function) in PHP': '4PHPGrundlagen/4.6.1Unterprogramme(function)inPHP.md'
+      #       - '4.6.2 Standard-Werte für Unterprogramme': '4PHPGrundlagen/4.6.2Standard-WertefürUnterprogramme.md'
+      #       - '4.6.3 Funktionsaufrufe innerhalb einer Funktion': '4PHPGrundlagen/4.6.3FunktionsaufrufeinnerhalbeinerFunktion.md'
+      #       - '4.6.4 Fehlerbehandlung in PHP': '4PHPGrundlagen/4.6.4FehlerbehandlunginPHP.md'
+      #       - '4.6.5 Beispiel Formulare - Dateneinlesen': '4PHPGrundlagen/4.6.5BeispielFormulare-Dateneinlesen.md'
+      #   - '4.7 Bedingte Anweisungen, Schleifen und Sprungbefehle':
+      #       - '4.7.1 If & if-elseif-else': '4PHPGrundlagen/4.7.1If&if-elseif-else.md'
+      #       - '4.7.2 For, continue': '4PHPGrundlagen/4.7.2For,continue.md'
+      #       - '4.7.3 Foreach': '4PHPGrundlagen/4.7.3Foreach.md'
+      #       - '4.7.4 Arrays im Array - Teil 2': '4PHPGrundlagen/4.7.4ArraysimArray-Teil2.md'
+      #       - '4.7.5 While': '4PHPGrundlagen/4.7.5While.md'
+      #       - '4.7.6 Switch, case, break, default': '4PHPGrundlagen/4.7.6Switch,case,break,default.md'
+      #       - '4.7.7 Beispiel Formulare - Datenausgeben': '4PHPGrundlagen/4.7.7BeispielFormulare-Datenausgeben.md'
+      #   - '4.8 Cookies & Sessions':
+      #       - '4.8.1 Cookies': '4PHPGrundlagen/4.8.1Cookies.md'
+      #       - '4.8.2 Sessions': '4PHPGrundlagen/4.8.2Sessions.md'
+      #   - '4.9 Dateien, Prozesse & Verzeichnisse':
+      #       - '4.9.1 Verzeichnisfunktionen': '4PHPGrundlagen/4.9.1Verzeichnisfunktionen.md'
+      #       - '4.9.2 Prozesse starten und schließen': '4PHPGrundlagen/4.9.2Prozessestartenundschließen.md'
+      #       - '4.9.3 Dateien lesen und schreiben': '4PHPGrundlagen/4.9.3Dateienlesenundschreiben.md'
+      #       - '4.9.4 Daten im JSON-Format speichern': '4PHPGrundlagen/4.9.4DatenimJSON-Formatspeichern.md'
+      #       - '4.9.5 Beispiel Formulare - Datenspeichern': '4PHPGrundlagen/4.9.5BeispielFormulare-Datenspeichern.md'
+      #   - '4.10 Interessante Funktionen':
+      #       - '4.10.1 Übersicht String-Funktionen': '4PHPGrundlagen/4.10.1ÜbersichtString-Funktionen.md'
+      #       - '4.10.2 Übersicht Array-Funktionen': '4PHPGrundlagen/4.10.2ÜbersichtArray-Funktionen.md'
+      #       - '4.10.3 Erzeugen von HTTP-Headern mit header()': '4PHPGrundlagen/4.10.3ErzeugenvonHTTP-Headernmitheader().md'
+      #       - '4.10.4 htmlspecialchars()': '4PHPGrundlagen/4.10.4Htmlspecialchars().md'
+      #       - '4.10.5 Datum ausgeben mit date()': '4PHPGrundlagen/4.10.5Datumausgebenmitdate().md'
+      #       - '4.10.6 Übersicht Sortierungsfunktionen': '4PHPGrundlagen/4.10.6ÜbersichtSortierungsfunktionen.md'
+      #       - '4.10.7 Beispiel für die Sortierungsfunktionen sort() & rsort()': '4PHPGrundlagen/4.10.7BeispielfürdieSortierungsfunktionensort()&rsort().md'
+      #       - '4.10.8 Beispiel für die Sortierungsfunktion uksort()': '4PHPGrundlagen/4.10.8BeispielfürdieSortierungsfunktionuksort().md'
+      #       - '4.10.9 Zufallsgenerierter Inhalt': '4PHPGrundlagen/4.10.9ZufallsgenerierterInhalt.md'
+      #       - '4.10.10 Beispiel Formulare - Datensortieren': '4PHPGrundlagen/4.10.10BeispielFormulare-Datensortieren.md'
+      #   - '4.11 Dokumentieren und Testen':
+      #       - '4.11.1 Dokumentation': '4PHPGrundlagen/4.11.1Dokumentation.md'
+      #       - '4.11.2 Testen': '4PHPGrundlagen/4.11.2Testen.md'
+      #   - '4.12 Zusammenfassung Kapitel Grundlagen der PHP-Programmierung': '4PHPGrundlagen/4.12ZusammenfassungKapitelGrundlagenderPHP-Programmierung.md'
+  #   - OOP in PHP:
+  #       - '5.1 Warum Objektorientierung': '5OOP/5.1WarumObjektorientierung.md'
+  #       - '5.2 Grundlagen der OOP':
+  #           - '5.2 Grundlagen der OOP Übersicht': '5OOP/5.2GrundlagenderOOP.md'
+  #           - '5.2.1 Klassen und Objekte': '5OOP/5.2.1KlassenundObjekte.md'
+  #           - '5.2.2 Ergebnisse eines Methodenaufrufs verarbeiten': '5OOP/5.2.2ErgebnisseeinesMethodenaufrufsverarbeiten.md'
+  #           - '5.2.3 Klassen in Dateien auslagern und MVC-Prinzip': '5OOP/5.2.3KlasseninDateienauslagernundMVC-Prinzip.md'
+  #           - '5.2.4 Sichtbarkeit': '5OOP/5.2.4Sichtbarkeit.md'
+  #           - '5.2.5 Selbsttest Nr.1 zu OOP in PHP': '5OOP/5.2.5SelbsttestNr.1zuOOPinPHP.md'
+  #       - '5.3 Spezielle Methoden':
+  #           - '5.3.1 Getter und Setter': '5OOP/5.3.1GetterundSetter.md'
+  #           - '5.3.2 Konstruktor construct()': '5OOP/5.3.2Konstruktorconstruct().md'
+  #           - '5.3.3 Destruktor destruct()': '5OOP/5.3.3Destruktordestruct().md'
+  #           - '5.3.4 Magische Methoden': '5OOP/5.3.4MagischeMethoden.md'
+  #           - '5.3.5 Methode set': '5OOP/5.3.5Methodeset.md'
+  #           - '5.3.6 Methode get': '5OOP/5.3.6Methodeget.md'
+  #           - '5.3.7 Selbsttest Nr.2 zu OOP in PHP': '5OOP/5.3.7SelbsttestNr.2zuOOPinPHP.md'
+  #       - '5.4 Beziehungen von Klassen untereinander':
+  #           - '5.4 Beziehungen von Klassen untereinander Übersicht': '5OOP/5.4BeziehungenvonKlassenuntereinander.md'
+  #           - '5.4.1 Mehrere Klassen verwenden': '5OOP/5.4.1MehrereKlassenverwenden.md'
+  #           - '5.4.2 UML-Diagramme verstehen': '5OOP/5.4.2UML-Diagrammeverstehen.md'
+  #           - '5.4.3 Statische Aufrufe von Klassen': '5OOP/5.4.3StatischeAufrufevonKlassen.md'
+  #           - '5.4.4 Vererbung': '5OOP/5.4.4Vererbung.md'
+  #           - '5.4.5 Vererbung - weiteres Beispiel': '5OOP/5.4.5Vererbung-weiteresBeispiel.md'
+  #           - '5.4.6 Aggregation und Komposition': '5OOP/5.4.6AggregationundKomposition.md'
+  #           - '5.4.7 Beispiel mit Vererbung, Aggregation und Komposition': '5OOP/5.4.7BeispielmitVererbung,AggregationundKomposition.md'
+  #           - '5.4.8 Abstrakte Klassen und Interfaces (= Schnittstellen)': '5OOP/5.4.8AbstrakteKlassenundInterfaces(=Schnittstellen).md'
+  #           - '5.4.9 Selbsttest Nr.3 zu OOP in PHP': '5OOP/5.4.9SelbsttestNr.3zuOOPinPHP.md'
+  #       - '5.5 Weitere Grundlagen':
+  #           - '5.5.1 Datum ausgeben mit DateTime': '5OOP/5.5.1DatumausgebenmitDateTime.md'
+  #           - '5.5.2 Dateien lesen und schreiben (SPL)': '5OOP/5.5.2Dateienlesenundschreiben(SPL).md'
+  #           - '5.5.3 Autoloading (SPL)': '5OOP/5.5.3Autoloading(SPL).md'
+  #           - '5.5.4 ArrayAccess-Interface': '5OOP/5.5.4ArrayAccess-Interface.md'
+  #           - '5.5.5 Anonyme Funktionen und Closure': '5OOP/5.5.5AnonymeFunktionenundClosure.md'
+  #           - '5.5.6 Namespaces': '5OOP/5.5.6Namespaces.md'
+  #           - '5.5.7 Selbsttest Nr.4 zu OOP in PHP': '5OOP/5.5.7SelbsttestNr.4zuOOPinPHP.md'
+  #   - Reguläre Ausdrücke mit PHP:
+  #       - '6.0 Reguläre Ausdrücke mit PHP Übersicht': '6RegExp/6RegulaereAusdrueckemitPHP.md'
+  #       - '6.1 PHP-Funktionen für reguläre Ausdrücke und triviale Beispiele':
+  #           - '6.1 Übersicht': '6RegExp/6.1PHP-FunktionenfürreguläreAusdrückeundtrivialeBeispiele.md'
+  #           - '6.1.1 Einfaches Beispiel für preg_match()': '6RegExp/6.1.1EinfachesBeispielfürpregmatch().md'
+  #           - '6.1.2 Einfaches Beispiel für preg_match_all()': '6RegExp/6.1.2EinfachesBeispielfürpregmatchall().md'
+  #           - '6.1.3 Einfaches Beispiel für preg_replace()': '6RegExp/6.1.3EinfachesBeispielfürpregreplace().md'
+  #           - '6.1.4 Reguläre Ausdrücke im Web-Interface prüfen': '6RegExp/6.1.4ReguläreAusdrückeimWeb-Interfaceprüfen.md'
+  #       - '6.2 Syntax regulärer Ausdrücke':
+  #           - '6.2 Übersicht': '6RegExp/6.2SyntaxregulärerAusdrücke.md'
+  #           - '6.2.1 Runde Klammern bilden eine Gruppe': '6RegExp/6.2.1RundeKlammernbildeneineGruppe.md'
+  #           - '6.2.2 Eckige Klammern als Mengenklammer': '6RegExp/6.2.2EckigeKlammernalsMengenklammer.md'
+  #           - '6.2.3 Zeichenklassen für Wörter, Zahlen etc.': '6RegExp/6.2.3ZeichenklassenfürWörter,Zahlenetc..md'
+  #           - '6.2.4 Sonderzeichen maskieren mit Backslash': '6RegExp/6.2.4SonderzeichenmaskierenmitBackslash.md'
+  #           - '6.2.5 Geschweifte Klammern für Wiederholungen': '6RegExp/6.2.5GeschweifteKlammernfürWiederholungen.md'
+  #           - '6.2.6 Joker-Zeichen': '6RegExp/6.2.6Joker-Zeichen.md'
+  #           - '6.2.7 Gefräßigkeit (auch Gier, greed, greedy)': '6RegExp/6.2.7Gefräßigkeit(auchGier,greed,greedy).md'
+  #           - '6.2.8 Markierung von Anfang und Ende': '6RegExp/6.2.8MarkierungvonAnfangundEnde.md'
+  #           - '6.2.9 Gefundene Stellen ersetzen': '6RegExp/6.2.9GefundeneStellenersetzen.md'
+  #           - '6.2.10 Modifikatoren für Reguläre Ausdrücke': '6RegExp/6.2.10ModifikatorenfürReguläreAusdrücke.md'
+  #           - '6.2.11 Mit Arrays arbeiten': '6RegExp/6.2.11MitArraysarbeiten.md'
+  #           - '6.2.12 Problem Umlaute': '6RegExp/6.2.12ProblemUmlaute.md'
+  #           - '6.2.13 Zusammenfassung der Syntax': '6RegExp/6.2.13ZusammenfassungderSyntax.md'
+  #       - '6.3 Praktische Beispiele für reguläre Ausdrücke':
+  #           - '6.3.1 Praktische Beispiele': '6RegExp/6.3.1PraktischeBeispielefürreguläreAusdrücke.md'
+  #           - '6.3.2 Erste Übungsaufgaben': '6RegExp/6.3.2ErsteÜbungsaufgaben.md'
+  #           - '6.3.3 Nachvollziehen von Lösungen': '6RegExp/6.3.3NachvollziehenvonLösungen.md'
+  #           - '6.3.4 Weitere Übungsaufgaben mit PHP': '6RegExp/6.3.4ReguläreAusdrückemitPHPWe
+  #           - '6.3.4 Weitere Übungsaufgaben mit PHP': '6RegExp/6.3.4ReguläreAusdrückemitPHPWeitereÜbungsaufgaben.md'
+  #       - '6.4 Fortgeschrittene Sonderthemen':
+  #           - '6.4.1 Maskieren von Sonderzeichen': '6RegExp/6.4.1MaskierenvonSonderzeichen.md'
+  #           - '6.4.2 Single-line-Mode für Fortgeschrittene': '6RegExp/6.4.2FürFortgeschritteneSingle-line-Mode.md'
+  #           - '6.4.3 Beispiel mod_rewrite für den Apache Webserver': '6RegExp/6.4.3BeispielmodrewritefürdenApacheWebserver.md'
+  #           - '6.4.4 Finite Automaten und Reguläre Ausdrücke': '6RegExp/6.4.4FiniteAutomatenundReguläreAusdrücke.md'
+  #       - '6.5 Zusammenfassung Kapitel reguläre Ausdrücke':
+  #           - '6.5.1 Selbsttest zum gesamten Kapitel reguläre Ausdrücke': '6RegExp/6.5.1SelbsttestzumgesamtenKapitelreguläreAusdrücke.md'
+  #           - '6.5.2 Übungen zum gesamten Kapitel reguläre Ausdrücke': '6RegExp/6.5.2ÜbungenzumgesamtenKapitelreguläreAusdrücke.md'
+  #       - '7.0 Datenbanken Übersicht': '7DB/7Datenbanken.md'
+  #       - '7.1 Datenbank MySQL': '7DB/7.1DatenbankMySQL.md'
+  #       - '7.2 SQL': '7DB/7.2SQL.md'
+  #       - '7.3 SQL-Beispiele': '7DB/7.3SQL-Beispiele.md'
+  #       - '7.4 Datenbankverwaltung mit phpMyAdmin': '7DB/7.4DatenbankverwaltungmitphpMyAdmin.md'
+  #       - '7.5 PHP und MySQL verbinden': '7DB/7.5PHPundMySQLverbinden.md'
+  #       - '7.6 Datenbankverbindung verbessern': '7DB/7.6Datenbankverbindungverbessern.md'
+  #       - '7.7 Datenbankverbindung professionell': '7DB/7.7Datenbankverbindungprofessionell.md'
+  #       - '7.8 Datenbankverbindung Fehlerausgabe abfangen': '7DB/7.8DatenbankverbindungFehlerausgabeabfangen.md'
+  #       - '7.9 Zusammenfassung Kapitel Datenbanken': '7DB/7.9ZusammenfassungKapitelDatenbanken.md'
+  #   - Pattern - Entwurfsmuster:
+  #       - '8.0 Pattern-Entwurfsmuster Übersicht': '8Pattern/8Pattern-Entwurfsmuster.md'
+  #       - '8.1 Unterschiedliche Arten von Pattern': '8Pattern/8.1UnterschiedlicheArtenvonPattern.md'
+  #       - '8.2 Das Burger-Restaurant': '8Pattern/8.2DasBurger-Restaurant.md'
+  #       - '8.3 Template Pattern (dt. Schablone)': '8Pattern/8.3TemplatePattern(dt.Schablone).md'
+  #       - '8.4 Decorator Pattern (dt. Dekorierer)': '8Pattern/8.4DecoratorPattern(dt.Dekorierer).md'
+  #       - '8.5 Strategy Pattern (dt. Strategie)': '8Pattern/8.5StrategyPattern(dt.Strategie).md'
+  #       - '8.6 Composite Pattern (dt. Kompositum)': '8Pattern/8.6CompositePattern(dt.Kompositum).md'
+  #       - '8.7 Factory Pattern (dt. Fabrik)': '8Pattern/8.7FactoryPattern(dt.Fabrik).md'
+  #       - '8.8 Builder Pattern (dt. Erbauer)': '8Pattern/8.8BuilderPattern(dt.Erbauer).md'
+  #       - '8.9 Fazit und Reflektion': '8Pattern/8.9FazitundReflektion.md'
+  #   - PHP Frameworks:
+  #       - '9.0 PHP Frameworks Übersicht': '9Frameworks/9PHPFrameworks.md'
+  #       - '9.1 Frameworks und deren Bedeutung': '9Frameworks/9.1FrameworksundderenBedeutung.md'
+  #       - '9.2 Begriffe und Tools': '9Frameworks/9.2BegriffeundTools.md'
+  #       - '9.3 Laravel installieren': '9Frameworks/9.3Laravelinstallieren.md'
+  #       - '9.4 Laravel Tutorial': '9Frameworks/9.4LaravelTutorial.md'
+  #       - '9.5 Symfony installieren': '9Frameworks/9.5Symfonyinstallieren.md'
+  #       - '9.6 Symfony Tutorial': '9Frameworks/9.6SymfonyTutorial.md'
+  #       - '9.7 Aufgabe zu PHP Frameworks': '9Frameworks/9.7AufgabezuPHPFrameworks.md'
+  #   - Anhang:
+  #       - '10.0 Anhang Übersicht': '10Anhang/10Anhang.md'
+  #       - '10.1 Danksagungen': '10Anhang/10.1Danksagungen.md'
+  #       - '10.2 Backup altes Kapitel Sicherheitslücken in der PHP-Programmierung':
+  #           - '10.2 Übersicht': '10Anhang/10.2BackupaltesKapitelSicherheitslückeninderPHP-Programmierung.md'
+  #           - '10.2.1 Funktionsweise einer Web-Anwendung': '10Anhang/10.2.1FunktionsweiseeinerWeb-Anwendung.md'
+  #           - '10.2.2 CSRF-Attacken': '10Anhang/10.2.2CSRF-Attacken.md'
+  #           - '10.2.3 Cross-Site Scripting - XSS': '10Anhang/10.2.3CrossSiteScripting-XSS.md'
+  #           - '10.2.4 HTTP Response Splitting': '10Anhang/10.2.4HTTPResponseSplitting.md'
+  #           - '10.2.5 Shell Command Injektion': '10Anhang/10.2.5ShellCommandInjektion.md'
+  #           - '10.2.6 SQL Injection': '10Anhang/10.2.6SQLInjection.md'
+  #           - '10.2.7 Fazit': '10Anhang/10.2.7Fazit.md'
+  #       - '10.3 Backup altes Kapitel Entwurfsmuster in PHP':
+  #           - '10.3 Übersicht': '10Anhang/10.3BackupaltesKapitelEntwurfsmusterinPHP.md'
+  #           - '10.3.1 Die Modellierung des Autos': '10Anhang/10.3.1DieModellierungdesAutos.md'
+  #           - '10.3.2 Verhaltensmuster - Schablone (Template)': '10Anhang/10.3.2Verhaltensmuster-Schablone(Template).md'
+  #           - '10.3.3 Strukturmuster - Der Dekorierer (Decorator Pattern)': '10Anhang/10.3.3Strukturmuster-DerDekorierer(DecoraterPattern).md'
+  #           - '10.3.4 Verhaltensmuster - Strategie (Strategy Pattern)': '10Anhang/10.3.4Verhaltensmuster-Strategie(StrategyPattern).md'
+  #           - '10.3.5 Erzeugungsmuster - Fabrikmethode (Factory method)': '10Anhang/10.3.5Erzeugungsmuster-Fabrikmethode(Factorymethod).md'
+  #           - '10.3.6 Strukturmuster - Adapter': '10Anhang/10.3.6Strukturmuster-Adapter.md'
+  #           - '10.3.7 Strukturmuster - Kompositum (Composite)': '10Anhang/10.3.7Strukturmuster-Kompositum(Composite).md'
+  #           - '10.3.8 Verhaltensmuster - Beobachter (Observer)': '10Anhang/10.3.8Verhaltensmuster-Beobachter(Observer).md'
+  #           - '10.3.9 Strukturmuster - Stellvertreter (Proxy)': '10Anhang/10.3.9Strukturmuster-Stellvertreter(Proxy).md'
+  #           - '10.3.10 Vollständiges Programm': '10Anhang/10.3.10VollständigesProgramm.md'
+  #           - '10.3.11 Entwurfsmuster in PHP - Zusammenfassung': '10Anhang/10.3.11EntwurfsmusterinPHP-Zusammenfassung.md'
+  #           - '10.3.12 Aufgabe zum Kapitel „PHP-Pattern“': '10Anhang/10.3.12AufgabezumKapitel„PHP-Pattern“.md'                  
+  # - Über uns: ueber-uns.md
+
+
+theme:
+  name: material
+  # name: material <- aus dem Video
+  # name: readthedocs <- NEIN. Lizenz kostet Geld
+  # name: windmill <- NEIN. wenig Konfigurationsmöglichkeiten
+  # ansehen sphinx https://www.sphinx-doc.org/en/master/usage/quickstart.html 
+  # https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+  
+  
+  #logo: assets/jt.jpg       # Bindet kleines Logo oben links ein
+  favicon: assets/images/favicon.ico
+  
+  # custom_dir: overrides     # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
+
+  font: false                 # Keine Google-Fonts laden
+
+  #font:                     
+  #  text: Roboto             # https://fonts.google.com/
+
+  features:
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+  #  - navigation.tabs         # Nav oben
+  #  - navigation.tabs.sticky  # Nav oben bleibt auch beim scrollen
+  #  - navigation.sections     # blendet links alle sections mit ein
+    - navigation.footer       # gibt einen Zurück-Button im Footer
+    - navigation.tracking     # linke Nav läuft beim Scrollen automatisch mit
+    - -navigation.expand       # Nav links ausgeklappt
+    - navigation.indexes      # Keine doppelte Überschriften direkt untereinander
+    - navigation.top          # Pfeil nach oben wird angezeigt
+    - toc.integrate           # Ohne Navi auf der rechten Seite
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tooltips
+  language: de
+    
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Zum Dark-mode
+      primary: blue grey   # Hauptfarbe: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+      accent: red 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Zum Light-mode    
+      primary: blue grey
+      accent: red
+
+#  icon:
+#    admonition:
+#      question: octicons/question-16 
+
+plugins:
+  - social
+  - search
+  - open-in-new-tab           # Alle Links in externen Tabs öffnen
+#  - ezlinks:
+#      wikilinks: true         # Erlaubt Wikilinks in [[  ]] - ist aber veraltet und wird abgeschaltet
+#  - mermaid2                  # Grafische Darstellung von UML-Diagrammen
+#  - blog:
+#      blog_dir: .
+#      post_readtime: false
+      # base_path: blog
+      # show_recent: 5
+      # date_format: '%Y-%m-%d'
+      #tags:
+      #  - Tech
+      #  - MkDocs
+      #  - Blogging
+  #- git-revision-date-localized:
+  #    type: 'datetime'
+  #    locale: 'de'
+
+
+extra_css:
+  - stylesheets/extra.css     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#content-area-width 
+
+
+extra_javascript:
+    - javascript/custom.js
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/google
+      link: https://scholar.google.de/citations?user=-Oj8JzgAAAAJ
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Joerg_Thomaschewski
+    - icon: fontawesome/brands/linkedin
+      link: https://de.linkedin.com/in/j%C3%B6rg-thomaschewski-7074786/de
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/profile/Joerg_Thomaschewski
+    - icon: fontawesome/solid/envelope
+      link: mailto:joerg.thomaschewski@hs-emden-leer.de 
+
+markdown_extensions:
+  - abbr
+  - attr_list  
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - toc:
+      toc_depth: 0
+  - admonition                    # hierdurch können Bereiche ein- und ausgeklappt werden
+  - pymdownx.details              # hierdurch können Bereiche ein- und ausgeklappt werden
+  - pymdownx.superfences          # hierdurch können Bereiche ein- und ausgeklappt werden
+  - pymdownx.mark
+  - pymdownx.arithmatex:
+      generic: true 
+  - pymdownx.highlight:
+      anchor_linenums: true 
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
+copyright: |
+  &copy; 2023-2024 für alle Inhalte Jörg Thomaschewski --- <a href="https://thomaschewski.de/Weitere/Impressum/">Impressum</a> --- <a href="https://thomaschewski.de/Weitere/Datenschutzerklaerung/">Datenschutzerklärung</a> 
