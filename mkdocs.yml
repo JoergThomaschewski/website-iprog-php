@@ -378,8 +378,8 @@ extra_css:
 
 
 extra_javascript:
-    - javascript/custom.js
     - https://unpkg.com/mermaid/dist/mermaid.min.js
+#    - javascript/custom.js
 
 extra:
   social:
