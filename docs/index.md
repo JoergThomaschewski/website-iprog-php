@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Internet-Programmierung mit PHP
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Herzlich willkommen zum Kurs über Internet-Programmierung. Ab dem 25. März 2024 stelle ich Ihnen sugsessiv das Lehrmaterial für die Vorlesung im 4. Semester Medientechnik an der Hochschule Emden/Leer zur Verfügung.
 
-## Commands
+Für weitere Informationen zu meiner Person besuchen Sie bitte meine Webseite [www.thomaschewski.de](https://thomaschewski.de).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Weitere Kursinhalte folgen in Kürze.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

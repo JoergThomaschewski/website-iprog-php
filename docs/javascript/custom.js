@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const buttons = document.querySelectorAll('.read-status-button');
       buttons.forEach(button => {
           if (state === 'read') {
-              button.innerHTML = '&#9745;'; // Angekreuztes Kästchen
+              button.innerHTML = '&#9745; Done'; // Angekreuztes Kästchen
               button.style.color = 'green'; // Grüne Farbe für "gelesen"
           } else {
-              button.innerHTML = '&#9744;'; // Leeres Kästchen
+              button.innerHTML = '&#9744; ToDo'; // Leeres Kästchen
               button.style.color = 'black'; // Gelbe Farbe für "ungelesen"
           }
       });

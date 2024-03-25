@@ -41,13 +41,12 @@ nav:
       - '1.10 Selbsttest zu HTML und HTML-Formularen': '1EinleitungundBasiswissen/1.10SelbsttestzuHTML-Formularen.md'
   - '2. HTTP': 
       - 'Übersicht': '2HTTP/index.md'
+      - '2.1 HTTP-Grundlagen und Internet-Kommunikation': '2HTTP/2.1HTTP-GrundlagenundInternet-Kommunikation.md'
       - '2.1.1 Sinn und Zweck von HTTP': '2HTTP/2.1.1SinnundZweckvonHTTP.md'
       - '2.1.2 HTTP 1.1 zustandslos und persistent': '2HTTP/2.1.2HTTP1.1zustandslosundpersistent.md'
       - '2.1.3 HTTP 1.1 gleichzeitige Anfragen': '2HTTP/2.1.3HTTP1.1gleichzeitigeAnfragen.md'
-      - '2.1.4 URL, URI, URN': '2HTTP/2.1.4URLURIURN.md'
-      - '2.1.5 Sonderzeichen und Codierung': '2HTTP/2.1.5SonderzeichenundCodierung.md'
-      - '2.1.6 Selbsttest zu HTTP-Grundlagen': '2HTTP/2.1.6SelbsttestzuHTTP-Grundlagen.md'
-      - '2.1 HTTP-Grundlagen und Internet-Kommunikation': '2HTTP/2.1HTTP-GrundlagenundInternet-Kommunikation.md'
+      - '2.1.4 Aufbau einer URL': '2HTTP/2.1.4AufbauEinerURL.md'
+      - '2.1.5 Selbsttest zu HTTP-Grundlagen': '2HTTP/2.1.5SelbsttestzuHTTP-Grundlagen.md'
       - '2.2 HTTP 1.1': '2HTTP/2.2HTTP1.1.md'
       - '2.2.1 HTTP-Request und HTTP-Response': '2HTTP/2.2.1HTTP-RequestundHTTP-Response.md'
       - '2.2.2 HTTP-Request Methoden und Request-Line': '2HTTP/2.2.2HTTP-RequestMethodenundRequest-Line.md'
@@ -55,11 +54,11 @@ nav:
       - '2.2.4 HTTP-Response Statuscodes und Status-Line': '2HTTP/2.2.4HTTP-ResponseStatuscodesundStatus-Line.md'
       - '2.2.5 HTTP-Response': '2HTTP/2.2.5HTTP-Response.md'
       - '2.2.6 Selbsttest zu HTTP 1.1': '2HTTP/2.2.6SelbsttestzuHTTP1.1.md'
-      - '2.3 HTTP 2': '2HTTP/2.3HTTP2.md'
-      - '2.3.1 Warum HTTP 2 notwendig wurde': '2HTTP/2.3.1WarumHTTP2notwendigwurde.md'
-      - '2.3.2 Verbesserungen in HTTP 2': '2HTTP/2.3.2VerbesserungeninHTTP2.md'
-      - '2.4 Zusammenfassung Kapitel HTTP': '2HTTP/2.4ZusammenfassungKapitelHTTP.md'
-      - '2.4.1 Selbsttest zum gesamten Kapitel HTTP': '2HTTP/2.4.1SelbsttestzumgesamtenKapitelHTTP.md'
+      - '2.3 HTTP/2': '2HTTP/2.3HTTP2.md'
+      - '2.4 HTTP/3': '2HTTP/2.4HTTP3.md'
+      - '2.5 Selbsttest zum gesamten Kapitel HTTP': '2HTTP/2.5SelbsttestzumgesamtenKapitelHTTP.md'
+      - '2.6 Zusammenfassung Kapitel HTTP': '2HTTP/2.6ZusammenfassungKapitelHTTP.md'
+
       # - '3. Webserver': 
       #   - '3.1 Einführung in die Webserver-Grundlagen': '3Webserver/3.1EinführungindieWebserver-Grundlagen.md'
       #   - '3.2 Der Apache Webserver':
