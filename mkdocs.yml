@@ -80,7 +80,7 @@ nav:
       - '3.3.10 Selbsttest zu Apache Konfiguration': '3Webserver/3.3.10SelbsttestzuApacheKonfiguration.md'
       - '3.4 Der nginx Webserver': '3Webserver/3.4nginx.md'
       - '3.5 Der node.js Webserver': '3Webserver/3.5Dernode.jsWebserver.md'   
-      - '3.6 Aufgabe zum Kapitel Webserver': '3Webserver/3.6.AufgabezumKapitelWebserver.md'
+      - '3.6 Aufgabe zum Kapitel Webserver': '3Webserver/3.6AufgabezumKapitelWebserver.md'
       - '3.7 Zusammenfassung Kapitel Webserver Übersicht': '3Webserver/3.7ZusammenfassungKapitelWebserver.md'
       # - '4 PHP-Grundlagen': '4PHPGrundlagen/4PHP-Grundlagen.md'
       #   - '4.1 Arbeitsumgebung':
@@ -316,17 +316,17 @@ theme:
   #  - navigation.tabs         # Nav oben
   #  - navigation.tabs.sticky  # Nav oben bleibt auch beim scrollen
   #  - navigation.sections     # blendet links alle sections mit ein
-    - navigation.footer       # gibt einen Zurück-Button im Footer
-    - navigation.tracking     # linke Nav läuft beim Scrollen automatisch mit
+    - navigation.footer        # gibt einen Zurück-Button im Footer
+    - navigation.tracking      # linke Nav läuft beim Scrollen automatisch mit
     - -navigation.expand       # Nav links ausgeklappt
-    - navigation.indexes      # Keine doppelte Überschriften direkt untereinander
-    - navigation.top          # Pfeil nach oben wird angezeigt
-    - toc.integrate           # Ohne Navi auf der rechten Seite
+    - navigation.indexes       # Keine doppelte Überschriften direkt untereinander
+  #  - navigation.top          # Pfeil nach oben wird angezeigt
+    - toc.integrate            # Ohne Navi auf der rechten Seite
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - content.code.annotation  # Code kann einen Kommentar enthalten https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
+    - content.code.copy        # Erstellt einen Button um Code zu kopieren
     - content.tooltips
   language: de
     
@@ -376,7 +376,7 @@ extra_css:
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js
-#    - javascript/custom.js
+    - javascript/custom.js
 
 extra:
   social:
@@ -399,7 +399,7 @@ markdown_extensions:
   - pymdownx.snippets
   - footnotes
   - toc:
-      toc_depth: 0
+      toc_depth: 0                # hierdurch werden keine Unterstrukturen TOC einer Seite angezeigt
   - admonition                    # hierdurch können Bereiche ein- und ausgeklappt werden
   - pymdownx.details              # hierdurch können Bereiche ein- und ausgeklappt werden
   - pymdownx.superfences          # hierdurch können Bereiche ein- und ausgeklappt werden
