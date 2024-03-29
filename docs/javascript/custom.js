@@ -1,45 +1,49 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Container für die Navigationspfeile erstellen
-    const navContainer = document.createElement('div');
-    navContainer.className = 'custom-nav-links';
-    navContainer.style.display = 'flex';
-    navContainer.style.justifyContent = 'space-between';
-    navContainer.style.padding = '10px 0'; // Vertikalen Padding anpassen
-    navContainer.style.marginBottom = '10px !important'; // Direkten Abstand nach unten anpassen
+    // Finde das h1-Element, das die Überschrift enthält
+    const h1 = document.querySelector('h1');
 
-    // Prüfen, ob die Navigationslinks vorhanden sind
-    const prevLink = document.querySelector('.md-footer__link--prev');
-    const nextLink = document.querySelector('.md-footer__link--next');
+    // Prüfe, ob sowohl das h1-Element als auch die Navigationslinks vorhanden sind
+    if (h1) {
+        const prevLink = document.querySelector('.md-footer__link--prev') ? document.querySelector('.md-footer__link--prev').cloneNode(true) : null;
+        const nextLink = document.querySelector('.md-footer__link--next') ? document.querySelector('.md-footer__link--next').cloneNode(true) : null;
 
-    if (prevLink && nextLink) {
-        // Pfeile zum Container hinzufügen, indem sie geklont werden
-        navContainer.appendChild(prevLink.cloneNode(true));
-        navContainer.appendChild(nextLink.cloneNode(true));
+        // Erstelle Span-Container für die Pfeile
+        const spanPrev = document.createElement('span');
+        const spanNext = document.createElement('span');
 
-        // Container direkt unter dem Header einfügen
-        const header = document.querySelector('.md-header');
-        if (header) {
-            header.parentNode.insertBefore(navContainer, header.nextSibling);
+        if (prevLink) {
+            // Entferne den Text und passe die Klasse für das Aussehen an
+            prevLink.querySelector('.md-footer__title').remove();
+            prevLink.classList.add('custom-nav-link-prev');
+            spanPrev.appendChild(prevLink);
         }
 
-        // Optional: Text aus den Pfeilen entfernen, um nur die Symbole anzuzeigen
-        const linkTexts = navContainer.querySelectorAll('.md-footer__title');
-        linkTexts.forEach(text => text.remove()); // Entfernt den Text komplett
+        if (nextLink) {
+            // Entferne den Text und passe die Klasse für das Aussehen an
+            nextLink.querySelector('.md-footer__title').remove();
+            nextLink.classList.add('custom-nav-link-next');
+            spanNext.appendChild(nextLink);
+        }
+
+        // Füge die Pfeile vor und nach dem h1-Text ein
+        h1.insertBefore(spanPrev, h1.firstChild);
+        h1.appendChild(spanNext);
+
+        // Optional: CSS-Stile hinzufügen, um die Anordnung zu verbessern
+        const styleTag = document.createElement('style');
+        styleTag.innerHTML = `
+            .custom-nav-link-prev, .custom-nav-link-next {
+                margin: 0 10px; // Abstand zwischen Text und Pfeil
+            }
+            h1 {
+                display: flex; // Ermöglicht die Ausrichtung der Pfeile neben dem Text
+                align-items: center; // Zentriert die Pfeile vertikal zum Text
+                justify-content: center; // Zentriert den gesamten Inhalt
+            }
+        `;
+        document.head.appendChild(styleTag);
     }
-
-    // Stil zum Anpassen des Abstands hinzufügen
-    const styleTag = document.createElement('style');
-    styleTag.innerHTML = `
-        .custom-nav-links + * {
-            margin-top: 0 !important;
-        }
-        .md-content__inner {
-            padding-top: 20px !important; // Verringert den Abstand zum Inhaltsanfang
-        }
-    `;
-    document.head.appendChild(styleTag);
 });
-
 
 
 
