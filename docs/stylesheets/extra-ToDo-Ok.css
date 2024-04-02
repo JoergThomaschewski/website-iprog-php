@@ -1,0 +1,14 @@
+/*
+Die nachfolgenden CSS-Regeln für .read und .unread sind auskommentiert,
+da sie für eine lokale JS-Datei relevant sind, die hier nicht betrachtet wird.*/
+
+.read {
+  background-color: green;
+  color: white;
+}
+
+.unread {
+  background-color: yellow;
+  color: black;
+}
+

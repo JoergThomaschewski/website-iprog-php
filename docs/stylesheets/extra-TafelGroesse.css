@@ -1,0 +1,32 @@
+.custom-style .md-typeset .admonition-title,
+.custom-style .md-typeset .admonition,
+.custom-style .md-typeset p code,
+.custom-style .md-typeset li code,
+.custom-style .highlight,
+.custom-style .highlight .highlighttable,
+.custom-style code,
+.custom-style .highlight .linenos,
+.custom-style .highlight code,
+.custom-style .md-typeset thead th,
+.custom-style .md-typeset tbody tr td {
+  font-size: 0.8rem;
+}
+
+.custom-style .md-typeset p code,
+.custom-style .md-typeset li code {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.custom-style .highlight, 
+.custom-style .highlight .highlighttable, 
+.custom-style code {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.custom-style .highlight .linenos, 
+.custom-style .highlight code {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
