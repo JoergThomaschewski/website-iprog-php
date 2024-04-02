@@ -357,13 +357,11 @@ plugins:
 
 
 extra_css:     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#content-area-width 
-  - stylesheets/extra-breite.css
-  - stylesheets/extra-TafelGroesse.css
+  - stylesheets/extra.css
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js
-    - javascript/custom-ObenPfeile.js
-    - javascript/custom-TafelGroesse.js
+    - javascript/custom.js
 
 extra:
   social:

@@ -1,3 +1,8 @@
+/* Basis-Formatierung ohne direkten Einfluss auf die Zeilennummern */
+.md-grid {
+  max-width: 1200px; 
+}
+
 .custom-style .md-typeset .admonition-title,
 .custom-style .md-typeset .admonition,
 .custom-style .md-typeset p code,
