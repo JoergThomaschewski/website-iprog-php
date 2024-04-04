@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const prevLink = document.querySelector('.md-footer__link--prev') ? document.querySelector('.md-footer__link--prev').cloneNode(true) : null;
         const nextLink = document.querySelector('.md-footer__link--next') ? document.querySelector('.md-footer__link--next').cloneNode(true) : null;
 
-        // Erstelle Span-Container für die Pfeile
         const spanPrev = document.createElement('span');
         const spanNext = document.createElement('span');
 
@@ -21,12 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
             spanNext.appendChild(nextLink);
         }
 
-        // Füge die Pfeile vor und nach dem h1-Text ein
         h1.insertBefore(spanPrev, h1.firstChild);
         h1.appendChild(spanNext);
     }
 
-    // Teil 2: Schalter für den "Tafel-Style"
     var switchContainer = document.querySelector('.md-header__inner');
     if (switchContainer) {
         var customSwitch = document.createElement('a');
@@ -37,12 +34,16 @@ document.addEventListener("DOMContentLoaded", function() {
         customSwitch.addEventListener('click', function(event) {
             event.preventDefault();
             document.body.classList.toggle('custom-style');
+            localStorage.setItem('isTafelStyle', document.body.classList.contains('custom-style'));
         });
 
         switchContainer.appendChild(customSwitch);
     }
 
-    // Optional: Gemeinsame CSS-Stile hinzufügen
+    if (localStorage.getItem('isTafelStyle') === 'true') {
+        document.body.classList.add('custom-style');
+    }
+
     const styleTag = document.createElement('style');
     styleTag.innerHTML = `
         .custom-nav-link-prev, .custom-nav-link-next {
@@ -55,4 +56,35 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     `;
     document.head.appendChild(styleTag);
+
+    // Teil 2: ToDo und Done Funktion
+    const updateButtons = () => {
+        const state = localStorage.getItem(window.location.pathname) || 'unread';
+        document.querySelectorAll('.read-status-button').forEach(button => {
+            button.innerHTML = state === 'read' ? '&#9745; Done' : '&#9744; ToDo';
+            button.style.color = state === 'read' ? 'green' : 'black';
+        });
+    };
+
+    const createButton = () => {
+        const button = document.createElement('button');
+        button.className = 'read-status-button';
+        button.style.border = 'none';
+        button.style.background = 'none';
+        button.style.cursor = 'pointer';
+
+        button.addEventListener('click', () => {
+            const currentState = localStorage.getItem(window.location.pathname) || 'unread';
+            localStorage.setItem(window.location.pathname, currentState === 'unread' ? 'read' : 'unread');
+            updateButtons();
+        });
+
+        return button;
+    };
+
+    const contentArea = document.querySelector('.md-content__inner') || document.body;
+    contentArea.insertBefore(createButton(), contentArea.firstChild);
+    contentArea.appendChild(createButton());
+
+    updateButtons();
 });

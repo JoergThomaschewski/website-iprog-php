@@ -98,7 +98,7 @@ nav:
       - '4.3.9 Vergleich von Arrays': '4PHPGrundlagen/4.3.9VergleichvonArrays.md'
       - '4.3.10 Schwache Typisierung': '4PHPGrundlagen/4.3.10SchwacheTypisierung.md'
       - '4.3.11 Selbsttest zu Variablentypen': '4PHPGrundlagen/4.3.11SelbsttestzuVariablentypen.md'
-      - '4.4 PHP-Syntax': '4PHPGrundlagen/4.4.PHPSyntax.md'
+      - '4.4 PHP-Syntax': '4PHPGrundlagen/4.4PHPSyntax.md'
       - '4.4.1 Ausgabe von Text': '4PHPGrundlagen/4.4.1AusgabevonText.md'
       - '4.4.2 Konstanten': '4PHPGrundlagen/4.4.2Konstanten.md'
       - '4.4.3 Vordefinierte Variablen': '4PHPGrundlagen/4.4.3VordefinierteVariablen.md'
@@ -110,27 +110,25 @@ nav:
       - '4.5 Operatoren in PHP': '4PHPGrundlagen/4.5OperatoreninPHP.md'
       - '4.6 Unterprogramme und Fehlerbehandlung': '4PHPGrundlagen/4.6UnterprogrammeundFehlerbehandlung.md'
       - '4.6.1 Unterprogramme in PHP': '4PHPGrundlagen/4.6.1UnterprogrammeinPHP.md'
-      - '4.6.2 Standard-Werte für Unterprogramme': '4PHPGrundlagen/4.6.2Standard-WertefürUnterprogramme.md'
+      - '4.6.2 Standard-Werte für Unterprogramme': '4PHPGrundlagen/4.6.2StandardWertefuerUnterprogramme.md'
       - '4.6.3 Funktionsaufrufe innerhalb einer Funktion': '4PHPGrundlagen/4.6.3FunktionsaufrufeinnerhalbeinerFunktion.md'
       - '4.6.4 Fehlerbehandlung in PHP': '4PHPGrundlagen/4.6.4FehlerbehandlunginPHP.md'
       - '4.6.5 Beispiel Formulare - Dateneinlesen': '4PHPGrundlagen/4.6.5BeispielFormulare-Dateneinlesen.md'
       - '4.7 Bedingte Anweisungen, Schleifen und Sprungbefehle': '4PHPGrundlagen/4.7Anweisungen.md'
-      - '4.7.1 If & if-elseif-else': '4PHPGrundlagen/4.7.1Ifif-elseif-else.md'
+      - '4.7.1 If & if-elseif-else': '4PHPGrundlagen/4.7.1Ifelse.md'
       - '4.7.2 For, continue': '4PHPGrundlagen/4.7.2Forcontinue.md'
       - '4.7.3 Foreach': '4PHPGrundlagen/4.7.3Foreach.md'
-      - '4.7.4 Arrays im Array - Teil 2': '4PHPGrundlagen/4.7.4ArraysimArray-Teil2.md'
+      - '4.7.4 Arrays im Array - Teil 2': '4PHPGrundlagen/4.7.4ArraysimArrayTeil2.md'
       - '4.7.5 While': '4PHPGrundlagen/4.7.5While.md'
-      - '4.7.6 Switch, case, break, default': '4PHPGrundlagen/4.7.6Switch,case,break,default.md'
-      - '4.7.7 Beispiel Formulare - Datenausgeben': '4PHPGrundlagen/4.7.7BeispielFormulare-Datenausgeben.md'
+      - '4.7.6 Switch, case, break, default': '4PHPGrundlagen/4.7.6Switchcasebreakdefault.md'
+      - '4.7.7 Beispiel Formulare - Datenausgeben': '4PHPGrundlagen/4.7.7BeispielFormulareDatenausgeben.md'
       - '4.8 Cookies & Sessions': '4PHPGrundlagen/4.8CookiesundSessions.md'
-      - '4.8.1 Cookies': '4PHPGrundlagen/4.8.1Cookies.md'
-      - '4.8.2 Sessions': '4PHPGrundlagen/4.8.2Sessions.md'
       - '4.9 Dateien, Prozesse & Verzeichnisse': '4PHPGrundlagen/4.9Dateien.md'
       - '4.9.1 Verzeichnisfunktionen': '4PHPGrundlagen/4.9.1Verzeichnisfunktionen.md'
-      - '4.9.2 Prozesse starten und schließen': '4PHPGrundlagen/4.9.2Prozessestartenundschließen.md'
+      - '4.9.2 Prozesse starten und schließen': '4PHPGrundlagen/4.9.2Prozessestartenundschliessen.md'
       - '4.9.3 Dateien lesen und schreiben': '4PHPGrundlagen/4.9.3Dateienlesenundschreiben.md'
-      - '4.9.4 Daten im JSON-Format speichern': '4PHPGrundlagen/4.9.4DatenimJSON-Formatspeichern.md'
-      - '4.9.5 Beispiel Formulare - Datenspeichern': '4PHPGrundlagen/4.9.5BeispielFormulare-Datenspeichern.md'
+      - '4.9.4 Daten im JSON-Format speichern': '4PHPGrundlagen/4.9.4DatenimJSONFormatspeichern.md'
+      - '4.9.5 Beispiel Formulare - Datenspeichern': '4PHPGrundlagen/4.9.5BeispielFormulareDatenspeichern.md'
       - '4.10 Interessante Funktionen': '4PHPGrundlagen/4.10InteressanteFunktionen.md'
       - '4.10.1 Übersicht String-Funktionen': '4PHPGrundlagen/4.10.1ÜbersichtString-Funktionen.md'
       - '4.10.2 Übersicht Array-Funktionen': '4PHPGrundlagen/4.10.2ÜbersichtArray-Funktionen.md'
@@ -361,7 +359,7 @@ extra_css:     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-na
 
 extra_javascript:
     - https://unpkg.com/mermaid/dist/mermaid.min.js
-    - javascript/custom.js
+    - js/custom.js
 
 extra:
   social:
