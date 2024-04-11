@@ -11,7 +11,7 @@ Nützliche Hinweise
 
 ## Bisher vorhanden sind
 
-**[2042-04-11] Kap. 1 bis einschließlich Kap. 5.4** 
+**[2042-04-11] Kap. 1 bis einschließlich Kap. 5** 
 
 - [1. Einleitung und Basiswissen](1EinleitungundBasiswissen/index.md)
 - [2. HTTP](2HTTP/index.md)
