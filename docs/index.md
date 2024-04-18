@@ -17,7 +17,8 @@ Nützliche Hinweise
 - [2. HTTP](2HTTP/index.md)
 - [3. Webserver](3Webserver/index.md)
 - [4. Grundlagen der PHP-Programmierung](4PHPGrundlagen/index.md)
-- [5 Objektorientierte Programmierung in PHP](5OOP/index.md)
+- [5. Objektorientierte Programmierung in PHP](5OOP/index.md)
+- [6. Reguläre Ausdrücke](6RegExp/index.md)
 
 **Änderungen am [2042-04-11]** 
 
@@ -30,3 +31,34 @@ Nützliche Hinweise
 - Was ist besser? Die Lösung innerhalb der Aufgabe oder außerhalb der Aufgabe?
 - PHP Syntax-Highlighting auch ohne `<?php` Start-Tag 
 - Kap 4.6.4 Fehlerbehandlung in PHP mit try - catch weiter hinten erklären, wenn Klassen und Instanzen klar sind.
+
+Hier nur einige Vorlagen für Admonitions
+
+!!! note
+
+!!! abstract
+
+!!! info
+
+!!! tip
+
+!!! success
+
+!!! question
+
+!!! warning
+
+!!! failure
+
+!!! danger
+
+!!! bug
+
+!!! example
+
+!!! quote
+
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks-inline-end
+
+
+
