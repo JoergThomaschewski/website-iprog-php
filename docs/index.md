@@ -11,7 +11,7 @@ Nützliche Hinweise
 
 ## Bisher vorhanden sind
 
-**[2042-04-11] Kap. 1 bis einschließlich Kap. 5** 
+**[2042-04-22] 
 
 - [1. Einleitung und Basiswissen](1EinleitungundBasiswissen/index.md)
 - [2. HTTP](2HTTP/index.md)
@@ -19,12 +19,11 @@ Nützliche Hinweise
 - [4. Grundlagen der PHP-Programmierung](4PHPGrundlagen/index.md)
 - [5. Objektorientierte Programmierung in PHP](5OOP/index.md)
 - [6. Reguläre Ausdrücke](6RegExp/index.md)
+- [7. Datenbanken](7DB/index.md)
 
-**Änderungen am [2042-04-11]** 
+**Änderungen am [2042-04-22]** 
 
-- Fehlerbereinigung in den Kap. 4.4 - 4.8
-- Inhaltlich überarbeitet: [4.4.5 Einbetten von Programmteilen](4PHPGrundlagen/4.4.5EinbettenvonProgrammteilen.md)
-- Python match-case hinzugefügt [4.7 Bedingte Anweisungen, Schleifen und Sprungbefehle](4PHPGrundlagen/4.7Anweisungen.md)
+- Link-Fehler beseitigt, die noch auf die alten Inhalte führten
 
 **[2042-04-11] offene Themen**
 
