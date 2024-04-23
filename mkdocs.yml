@@ -189,7 +189,7 @@ nav:
       - '6.3 Praktische Beispiele und Übungen': '6RegExp/6.3PraktischeBeispieleundUebungen.md'
       - '6.4 Fortgeschrittene Sonderthemen': '6RegExp/6.4FortgeschritteneSonderthemen.md'
       - '6.5 Selbsttest zur regulären Ausdrücken': '6RegExp/6.5SelbsttestzumgesamtenKapitelregulaereAusdruecke.md'
-  - '7.0 Datenbanken Übersicht': 
+  - '7. Datenbanken Übersicht': 
       - 'Übersicht': '7DB/index.md'
       - '7.1 Datenbank MySQL': '7DB/7.1DatenbankMySQLMariaDB.md'
       - '7.2 SQL': '7DB/7.2SQL.md'
@@ -200,55 +200,17 @@ nav:
       - '7.7 Datenbankverbindung professionell': '7DB/7.7Datenbankverbindungprofessionell.md'
       - '7.8 Datenbankverbindung Fehlerausgabe abfangen': '7DB/7.8DatenbankverbindungFehlerausgabeabfangen.md'
       - '7.9 Zusammenfassung Kapitel Datenbanken': '7DB/7.9ZusammenfassungKapitelDatenbanken.md'
-  #   - Pattern - Entwurfsmuster:
-  #       - '8.0 Pattern-Entwurfsmuster Übersicht': '8Pattern/8Pattern-Entwurfsmuster.md'
-  #       - '8.1 Unterschiedliche Arten von Pattern': '8Pattern/8.1UnterschiedlicheArtenvonPattern.md'
-  #       - '8.2 Das Burger-Restaurant': '8Pattern/8.2DasBurger-Restaurant.md'
-  #       - '8.3 Template Pattern (dt. Schablone)': '8Pattern/8.3TemplatePattern(dt.Schablone).md'
-  #       - '8.4 Decorator Pattern (dt. Dekorierer)': '8Pattern/8.4DecoratorPattern(dt.Dekorierer).md'
-  #       - '8.5 Strategy Pattern (dt. Strategie)': '8Pattern/8.5StrategyPattern(dt.Strategie).md'
-  #       - '8.6 Composite Pattern (dt. Kompositum)': '8Pattern/8.6CompositePattern(dt.Kompositum).md'
-  #       - '8.7 Factory Pattern (dt. Fabrik)': '8Pattern/8.7FactoryPattern(dt.Fabrik).md'
-  #       - '8.8 Builder Pattern (dt. Erbauer)': '8Pattern/8.8BuilderPattern(dt.Erbauer).md'
-  #       - '8.9 Fazit und Reflektion': '8Pattern/8.9FazitundReflektion.md'
-  #   - PHP Frameworks:
-  #       - '9.0 PHP Frameworks Übersicht': '9Frameworks/9PHPFrameworks.md'
-  #       - '9.1 Frameworks und deren Bedeutung': '9Frameworks/9.1FrameworksundderenBedeutung.md'
-  #       - '9.2 Begriffe und Tools': '9Frameworks/9.2BegriffeundTools.md'
-  #       - '9.3 Laravel installieren': '9Frameworks/9.3Laravelinstallieren.md'
-  #       - '9.4 Laravel Tutorial': '9Frameworks/9.4LaravelTutorial.md'
-  #       - '9.5 Symfony installieren': '9Frameworks/9.5Symfonyinstallieren.md'
-  #       - '9.6 Symfony Tutorial': '9Frameworks/9.6SymfonyTutorial.md'
-  #       - '9.7 Aufgabe zu PHP Frameworks': '9Frameworks/9.7AufgabezuPHPFrameworks.md'
-  #   - Anhang:
-  #       - '10.0 Anhang Übersicht': '10Anhang/10Anhang.md'
-  #       - '10.1 Danksagungen': '10Anhang/10.1Danksagungen.md'
-  #       - '10.2 Backup altes Kapitel Sicherheitslücken in der PHP-Programmierung':
-  #           - '10.2 Übersicht': '10Anhang/10.2BackupaltesKapitelSicherheitslückeninderPHP-Programmierung.md'
-  #           - '10.2.1 Funktionsweise einer Web-Anwendung': '10Anhang/10.2.1FunktionsweiseeinerWeb-Anwendung.md'
-  #           - '10.2.2 CSRF-Attacken': '10Anhang/10.2.2CSRF-Attacken.md'
-  #           - '10.2.3 Cross-Site Scripting - XSS': '10Anhang/10.2.3CrossSiteScripting-XSS.md'
-  #           - '10.2.4 HTTP Response Splitting': '10Anhang/10.2.4HTTPResponseSplitting.md'
-  #           - '10.2.5 Shell Command Injektion': '10Anhang/10.2.5ShellCommandInjektion.md'
-  #           - '10.2.6 SQL Injection': '10Anhang/10.2.6SQLInjection.md'
-  #           - '10.2.7 Fazit': '10Anhang/10.2.7Fazit.md'
-  #       - '10.3 Backup altes Kapitel Entwurfsmuster in PHP':
-  #           - '10.3 Übersicht': '10Anhang/10.3BackupaltesKapitelEntwurfsmusterinPHP.md'
-  #           - '10.3.1 Die Modellierung des Autos': '10Anhang/10.3.1DieModellierungdesAutos.md'
-  #           - '10.3.2 Verhaltensmuster - Schablone (Template)': '10Anhang/10.3.2Verhaltensmuster-Schablone(Template).md'
-  #           - '10.3.3 Strukturmuster - Der Dekorierer (Decorator Pattern)': '10Anhang/10.3.3Strukturmuster-DerDekorierer(DecoraterPattern).md'
-  #           - '10.3.4 Verhaltensmuster - Strategie (Strategy Pattern)': '10Anhang/10.3.4Verhaltensmuster-Strategie(StrategyPattern).md'
-  #           - '10.3.5 Erzeugungsmuster - Fabrikmethode (Factory method)': '10Anhang/10.3.5Erzeugungsmuster-Fabrikmethode(Factorymethod).md'
-  #           - '10.3.6 Strukturmuster - Adapter': '10Anhang/10.3.6Strukturmuster-Adapter.md'
-  #           - '10.3.7 Strukturmuster - Kompositum (Composite)': '10Anhang/10.3.7Strukturmuster-Kompositum(Composite).md'
-  #           - '10.3.8 Verhaltensmuster - Beobachter (Observer)': '10Anhang/10.3.8Verhaltensmuster-Beobachter(Observer).md'
-  #           - '10.3.9 Strukturmuster - Stellvertreter (Proxy)': '10Anhang/10.3.9Strukturmuster-Stellvertreter(Proxy).md'
-  #           - '10.3.10 Vollständiges Programm': '10Anhang/10.3.10VollständigesProgramm.md'
-  #           - '10.3.11 Entwurfsmuster in PHP - Zusammenfassung': '10Anhang/10.3.11EntwurfsmusterinPHP-Zusammenfassung.md'
-  #           - '10.3.12 Aufgabe zum Kapitel „PHP-Pattern“': '10Anhang/10.3.12AufgabezumKapitel„PHP-Pattern“.md'                  
-  # - Über uns: ueber-uns.md
-
-
+  - '8. Pattern - Entwurfsmuster':
+      - 'Übersicht': '8Pattern/index.md'
+      - '8.1 Unterschiedliche Arten von Pattern': '8Pattern/8.1UnterschiedlicheArtenvonPattern.md'
+      - '8.2 Das Burger-Restaurant': '8Pattern/8.2DasBurgerRestaurant.md'
+      - '8.3 Template Pattern (dt. Schablone)': '8Pattern/8.3TemplatePattern.md'
+      - '8.4 Decorator Pattern (dt. Dekorierer)': '8Pattern/8.4DecoratorPattern.md'
+      - '8.5 Strategy Pattern (dt. Strategie)': '8Pattern/8.5StrategyPattern.md'
+      - '8.6 Composite Pattern (dt. Kompositum)': '8Pattern/8.6CompositePattern.md'
+      - '8.7 Factory Pattern (dt. Fabrik)': '8Pattern/8.7FactoryPattern.md'
+      - '8.8 Builder Pattern (dt. Erbauer)': '8Pattern/8.8BuilderPattern.md'
+      - '8.9 Fazit und Reflektion': '8Pattern/8.9FazitundReflektion.md'
 theme:
   name: material
   # name: material <- aus dem Video
