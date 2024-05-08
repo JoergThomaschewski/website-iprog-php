@@ -25,5 +25,5 @@ Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semes
 ### Danksagung
 Dieses Script hat seine gute Qualität durch die Mithilfe vieler Studierender bekommen, die größere und kleinere Anregungen und Verbesserungsvorschläge eingebracht haben. Vielen Dank!
 
-Ein besonderer Dank geht an Thorsten Hallwas. Er ist der Hauptautor des Kapitels "8 Pattern" und Co-Autor der PHP-Kapitel 4, 5 und 7.
+Ein besonderer Dank geht an **Thorsten Hallwas**. Er ist der Hauptautor des Kapitels "8 Pattern" und Co-Autor der PHP-Kapitel 4, 5 und 7.
 
