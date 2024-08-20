@@ -254,13 +254,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Zum Dark-mode
-      primary: blue grey   # Hauptfarbe: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+      primary: light blue   # Hauptfarbe: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
       accent: red 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Zum Light-mode    
-      primary: blue grey
+      primary: light blue
       accent: red
 
 #  icon:
