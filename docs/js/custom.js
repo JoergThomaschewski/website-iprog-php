@@ -54,6 +54,12 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: center;
             justify-content: center;
         }
+        .read-status-button {
+            font-size: 0.85em;  /* Kleinere Schriftgröße für die ToDo/Done-Schaltfläche */
+        }
+        .last-updated {
+            font-size: 0.75em;  /* Noch kleinere Schriftgröße für das Datum */
+        }
     `;
     document.head.appendChild(styleTag);
 
@@ -85,6 +91,21 @@ document.addEventListener("DOMContentLoaded", function() {
     const contentArea = document.querySelector('.md-content__inner') || document.body;
     contentArea.insertBefore(createButton(), contentArea.firstChild);
     contentArea.appendChild(createButton());
+
+    // Datum der letzten Aktualisierung mit `document.lastModified` ermitteln
+    const lastModified = new Date(document.lastModified);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = lastModified.toLocaleDateString('de-DE', options);
+
+    // Element erstellen und Datum anzeigen
+    const lastUpdatedText = "Letzte Aktualisierung: " + formattedDate;
+    const lastUpdatedElement = document.createElement('p');
+    lastUpdatedElement.textContent = lastUpdatedText;
+    lastUpdatedElement.style.textAlign = 'center';  // Optional: Zentriert den Text
+    lastUpdatedElement.style.fontStyle = 'italic';  // Optional: Kursiv darstellen
+    lastUpdatedElement.className = 'last-updated';  // Klassenzuweisung für die kleinere Schriftgröße
+
+    contentArea.appendChild(lastUpdatedElement);  // Fügt das Datum am Ende des Inhaltsbereichs ein
 
     updateButtons();
 });
