@@ -1,11 +1,10 @@
 # Internet-Programmierung mit PHP
 ![Jörg Thomaschewski](./assets/images/JT-Web.jpg){align=right width="25%"}
 
-Willkommen zum Skript *Internet-Programmierung* für Studierende der *Medientechnik* an der *Hochschule Emden/Leer*. Ich bin Prof. Dr. Jörg Thomaschewski. Weitere Informationen zu studentischen Projekten und meiner Forschung finden Sie auf meiner Webseite [www.thomaschewski.de](https://thomaschewski.de).
+Willkommen zum Skript *Internet-Programmierung* für Studierende der *Medientechnik* an der *Hochschule Emden/Leer*. Aber vielleicht helfen diese Inhalte ja auch anderen Studierenden und Interessierten. Ich bin Prof. Dr. Jörg Thomaschewski. Weitere Informationen zu studentischen Projekten und meiner Forschung finden Sie auf meiner Webseite [www.thomaschewski.de](https://thomaschewski.de).
 
-Für das Melden von Tippfehlern und das Einreichen von Anregungen bin ich immer dankbar. Bitte senden Sie diese direkt an jt@imut.de. Vielen Dank!
+Für das Melden von Tippfehlern und Anregungen bin ich immer dankbar. Bitte senden Sie diese direkt an joerg.thomaschewski@hs-emden-leer.de. Vielen Dank!
 
-Vielleicht helfen diese Inhalt ja auch anderen Studierenden bzw. Interessierten.
 
 ### Nützliche Hinweise
 - Sehr gut ist die eingebaute Suche, die über die Taste <kbd>F</kbd> aktiviert werden kann.
