@@ -8,10 +8,10 @@ Für das Melden von Tippfehlern und Anregungen bin ich immer dankbar. Bitte send
 
 ### Nützliche Hinweise
 - Sehr gut ist die eingebaute Suche, die über die Taste <kbd>F</kbd> aktiviert werden kann.
-- Sourcecode kann "oben rechts" über den Copy-Button eines Sourcecode-Blocks direkt kopiert werden.
+- Sourcecode kann "oben rechts" über den Copy-Button des Sourcecode-Blocks direkt kopiert werden.
 
 ### Änderungshistorie
-Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semesters nachvollziehnen können, werden hier inhatliche Änderungen notiert. 
+Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semesters nachvollziehen können, werden hier inhaltliche Änderungen notiert.
 
 - [2024-04-23] Die Version 1.0 mit allen Inhalten ist nun online. 
 
