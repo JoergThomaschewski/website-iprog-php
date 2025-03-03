@@ -13,7 +13,7 @@ Für das Melden von Tippfehlern und Anregungen bin ich immer dankbar. Bitte send
 ### Änderungshistorie
 Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semesters nachvollziehen können, werden hier inhaltliche Änderungen notiert.
 
-- [2024-04-23] Die Version 1.0 mit allen Inhalten ist nun online. 
+- [2025-03-03] Kap. 2.1: Aussage zu HTTP/3 leicht  geändert; 2.1.5: In der ersten Aufgabe eine Antwortmöglichkeit entfernt; 2.2.4: Tabelle zu Statuscodes geändert. Prüfungsrelevant = fett.
 
 
 ### offene Themen
