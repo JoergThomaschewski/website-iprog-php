@@ -13,7 +13,8 @@ Für das Melden von Tippfehlern und Anregungen bin ich immer dankbar. Bitte send
 ### Änderungshistorie
 Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semesters nachvollziehen können, werden hier inhaltliche Änderungen notiert.
 
-- [2025-03-03] Kap. 2.1: Aussage zu HTTP/3 leicht  geändert; 2.1.5: In der ersten Aufgabe eine Antwortmöglichkeit entfernt; 2.2.4: Tabelle zu Statuscodes geändert. Prüfungsrelevant = fett.
+- [2025-03-03] Kap. 2.1: Aussage zu HTTP/3 leicht  geändert; Kap. 2.1.5: In der ersten Aufgabe eine Antwortmöglichkeit entfernt; Kap. 2.2.4: Tabelle zu Statuscodes geändert. Prüfungsrelevant = fett.
+- [2025-03-17] Kap. 3.3.8: Lösung zur Aufgabe verbessert; Kap. 4.1: Abbildung der vorgeschlagenen Verzeichnistruktur verbessert; auf etlichen Seiten redaktionelle Korrekturen.
 
 
 ### offene Themen

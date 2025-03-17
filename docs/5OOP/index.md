@@ -12,7 +12,7 @@ Gliederung
 Die objektorientierte Programmierung ist natürlich auch in PHP längst der Standard. In diesem Kapitel geht es um das grundlegende Verständnis und die zugehörige PHP-Syntax.
 
 !!! note "Anmerkung"
-    **Erläuterungen zur Didaktik dieses Kapitels**: Studierende dieses Moduls haben oftmals sehr heterogenes Vorwissen. Einige Studierende sind erfahrene Programmierer*innen, doch viele Studierende haben die Konzepte der objektorientierten Programmierung noch nicht verinnerlicht und genau für diese Zielgruppe ist dieses Kapitel.
+    **Erläuterungen zur Didaktik dieses Kapitels**: Studierende dieses Moduls haben oftmals sehr heterogenes Vorwissen. Einige Studierende sind erfahrene Programmierer:innen, doch viele Studierende haben die Konzepte der objektorientierten Programmierung noch nicht verinnerlicht und genau für diese Zielgruppe ist dieses Kapitel.
 
     Es ist so, dass eine sehr korrekte und schöne Darstellung der Programmierbeispiele den Blick auf die wesentlichen Bereiche für Programmier-Anfänger*innen erschwert. Didaktisch gute Beispiele sind nicht „state of the art“ und müssen dies auch nicht sein. Didaktisch einfache Programme sind auf die wesentlichen Zeilen reduziert.
 
