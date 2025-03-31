@@ -252,6 +252,11 @@ theme:
     - content.code.annotation  # Code kann einen Kommentar enthalten https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
     - content.code.copy        # Erstellt einen Button um Code zu kopieren
     - content.tooltips
+    - content.code.fences
+    - content.code.mermaid    # Mermaid-Unterstützung aktivieren
+    - content.code.highlight  # Aktiviert Syntaxhighlighting
+ 
+
   language: 'de'
     
   palette:
@@ -302,7 +307,6 @@ extra_css:     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-na
   - stylesheets/extra.css
 
 extra_javascript:
-    - https://unpkg.com/mermaid/dist/mermaid.min.js
     - js/custom.js
 
 extra:
@@ -340,28 +344,32 @@ markdown_extensions:
   - abbr
   - attr_list  
   - md_in_html
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
   - footnotes
   - toc:
       toc_depth: 0                # hierdurch werden keine Unterstrukturen TOC einer Seite angezeigt
   - admonition                    # hierdurch können Bereiche ein- und ausgeklappt werden
   - pymdownx.details              # hierdurch können Bereiche ein- und ausgeklappt werden
-  - pymdownx.superfences          # hierdurch können Bereiche ein- und ausgeklappt werden
   - pymdownx.mark
   - pymdownx.arithmatex:
       generic: true 
   - pymdownx.highlight:
-      anchor_linenums: true 
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-  - pymdownx.superfences:
-        # make exceptions to highlighting of code:
+      anchor_linenums: true
+      pygments_lang_class: true
+      extend_pygments_lang:
+        - name: phpraw    # neuer Alias-Name für Fenced Code
+          lang: php       # Basis-Language
+          options:
+            startinline: true  # PHP-Code ohne <?php zulassen
+  - pymdownx.inlinehilite
+  - pymdownx.snippets 
+  - pymdownx.emoji                # Standard-Emoji-Support (SVG/Twemoji)
+  - pymdownx.superfences:         # hierdurch können Bereiche ein- und ausgeklappt werden
       custom_fences:
+        - name: phpraw            # benutzerdefinierter Block für PHP ohne <?php
+          class: php
+          language: php
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
 
 copyright: |
   &copy; 2023-2024 für alle Inhalte Jörg Thomaschewski --- <a href="https://thomaschewski.de/Weitere/Impressum/">Impressum</a> --- <a href="https://thomaschewski.de/Weitere/Datenschutzerklaerung/">Datenschutzerklärung</a> 
