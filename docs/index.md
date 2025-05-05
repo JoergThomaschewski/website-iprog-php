@@ -27,6 +27,10 @@ Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semes
 - [2025-03-24] Kap. 4.3.1: Boolean-Bispiel deutlicher beschrieben; Kap. 4.3.2: Reihenfolge im Beispiel geändert; Kap. 4.3.8: Abschnitt mit array_keys() gelöscht.
 - [2025-03-31] Kap. 4.4.8: Selbsttest überarbeitet; Kap. 4.6.2: Standard-Werte für Unterprogramme überarbeitet; In jeden Sourcecode <?php eingefügt, damit Syntax-Highlightning funktioniert.
 - [2025-04-07] Kap. 4.7.4: Warnung zu den keys hinzugefühgt; Kap. 4.9.1: Beispiel korrigiert; Kap. 4.9.3: Tabelle am Anfang der Seite verbessert.
+- [2025-04-14] Kap. 5.2.5: Syntaxfehler korrigiert; Kap. 5.3.1: Tippfehler korrigiert.
+- [2025-04-24] Kap. 4.3.2: Syntax erneuert von {} auf [].
+- [2025-05-05] Viele Redaktionelle Fehler bereinigt.
+
 
 ### offene Themen
 - Was ist besser? Die Lösung innerhalb der Aufgabe oder außerhalb der Aufgabe?

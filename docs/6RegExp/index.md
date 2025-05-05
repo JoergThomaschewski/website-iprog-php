@@ -14,7 +14,7 @@ Ausdrücken sehr einfach und kompakt lösen lassen. Reguläre Ausdrücke (= Such
 sehr wichtiges Werkzeug um mit Zeichenketten umzugehen. Sie werden beispielsweise eingesetzt um die Korrektheit von Eingaben zu validieren oder um in Texten nach Strings zu suchen und diese zu ersetzen.
 
 !!! example "Beispiel"
-    Stellen Sie sich vor, Sie haben ein Formular erstellt um eine PLZ abzufragen. Wie können Sie sicher sein, dass der Nutzer wirklich 5 Ziffern für eine PLZ eingibt? Auf Client-Seite sollte eine entsprechende Abfrage mit JavaScript erstellt werden. Diese Abfrage verwendet natürlich einen regulären Ausdruck. Dann ist auf jeden Fall auf Serverseite nochmals eine Abfrage zu erstellen, da nicht alle Clients JavaScript eingeschaltet haben und um Angriffe über das Formularfeld zu verhindern. Dabei nutzen Sie reguläre Ausdrücke in PHP.
+    Stellen Sie sich vor, Sie haben ein Formular erstellt um eine PLZ abzufragen. Wie können Sie sicher sein, dass Nutzer:innen wirklich 5 Ziffern für eine PLZ eingeben? Auf Client-Seite sollte eine entsprechende Abfrage mit JavaScript erstellt werden. Diese Abfrage verwendet natürlich einen regulären Ausdruck. Dann ist auf jeden Fall auf Serverseite nochmals eine Abfrage zu erstellen, da nicht alle Clients JavaScript eingeschaltet haben und um Angriffe über das Formularfeld zu verhindern. Dabei nutzen Sie reguläre Ausdrücke in PHP.
 
 !!! danger "Sicherheit"
     Wer in PHP nicht auf **Sicherheit** achtet, der öffnet damit potentiellen Angreifern sehr leicht den Server.
