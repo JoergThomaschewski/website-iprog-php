@@ -29,7 +29,10 @@ Damit die Studierenden mögliche Änderungen und Ergänzungen während des Semes
 - [2025-04-07] Kap. 4.7.4: Warnung zu den keys hinzugefühgt; Kap. 4.9.1: Beispiel korrigiert; Kap. 4.9.3: Tabelle am Anfang der Seite verbessert.
 - [2025-04-14] Kap. 5.2.5: Syntaxfehler korrigiert; Kap. 5.3.1: Tippfehler korrigiert.
 - [2025-04-24] Kap. 4.3.2: Syntax erneuert von {} auf [].
-- [2025-05-05] Viele Redaktionelle Fehler bereinigt.
+- [2025-05-05] Viele redaktionelle Fehler bereinigt.
+- [2025-05-12] Kap. 6.2.7: Tabelle ergänzt.
+- [2025-05-14] Kap. 4.10.2: Tabellen und Beispiele ergänzt.
+- [2025-05-21] Kap. 5.5.4 Hauptprogramm hinzugefügt; Kap. 6.2.5 Tipp am Ende hinzugefügt; Kap. 6.5: redaktionelle Änderungen und letzte Aufgabe gelöscht; 
 
 
 ### offene Themen
